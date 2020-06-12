@@ -1,11 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./store/store";
+import Logger from "./services/Logger";
+import Routing from "./Routing";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Sensors App</h1>
-    </div>
+      <Provider store={store}>
+        <Logger>
+          <Routing />
+        </Logger>
+      </Provider>
   );
 }
 
