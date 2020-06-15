@@ -8,8 +8,8 @@ export const NavbarStyles = makeStyles((theme: Theme) =>
     menuButton: {
       marginRight: theme.spacing(2),
     },
-    title: {
-      flexGrow: 1,
+    MarginRight: {
+      marginRight: 50
     },
     appBar: {
       margin: "auto",

@@ -7,10 +7,10 @@ export const Intro = () => {
         <Grid item sm={6} xs={12} style={{ display: "flex", justifyContent: "center", alignItems: "center",backgroundColor: "#e3a624" }}>
             <Grid style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                 <Grid style={{display: "flex", alignItems: "center"}}>
-                    <Typography style={{ fontSize: "60px", fontFamily: "fantasy", color: "white" }}>Sensors-app</Typography>
+                    <Typography style={{ fontSize: "60px", fontFamily: "fantasy", color: "white" }}>Sensors</Typography>
                     <ContactlessIcon style={{color: "white"}} fontSize={"large"} />
                 </Grid>
-                <Typography style={{ fontSize: "15px", fontStyle: "oblique", color: "white" }}>Sensors data never lies</Typography>
+                <Typography style={{ fontSize: "15px", fontStyle: "oblique", color: "white" }}>Sensors for your life</Typography>
             </Grid>
         </Grid>
     )

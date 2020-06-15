@@ -1,6 +1,6 @@
 export interface UserLogin {
-    Username: string;
-    Password: string;
+    username: string;
+    password: string;
 }
 
 export interface IUser {

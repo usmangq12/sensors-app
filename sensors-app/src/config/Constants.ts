@@ -1,10 +1,7 @@
-export interface IMenuItems {
-    title: string;
-    route: string;
-}
+import {IMenuItems} from '../models/Appbar';
 
 export const menuItems: IMenuItems[] = [
     {title: "Home", route: "/home"},
-    {title: "Login", route: "/login"},
     {title: "SignUp", route: "/sign-up"}
 ]
+
